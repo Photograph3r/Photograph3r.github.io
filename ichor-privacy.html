@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ichor Privacy Policy</title>
+<style>
+/* Ichor UX Style Tile tokens */
+:root{
+  --soft-forest:#5FA777; --meadow:#B9E4C9; --sunshine:#FFD166; --sky-blue:#73C7F5;
+  --deep-purple:#5B3FA6; --warm-cream:#F8F7F2; --deep-forest:#2F3A3D; --surface:#FFFFFF; --faint-yellow:#FFF6D6;
+  --font-head:'Century Gothic','Segoe UI',sans-serif;
+  --font-body:'Segoe UI',Roboto,Arial,sans-serif;
+  --font-data:Consolas,'Courier New',monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--warm-cream);color:var(--deep-forest);font-family:var(--font-body);line-height:1.6}
+header{background:linear-gradient(180deg,var(--sky-blue) 0%,var(--meadow) 55%,var(--warm-cream) 100%);padding:48px 16px 28px}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+.chip{display:inline-block;background:var(--sunshine);color:var(--deep-forest);font-family:var(--font-head);font-weight:700;letter-spacing:2px;font-size:13px;padding:6px 12px;border-radius:8px}
+h1,h2{font-family:var(--font-head);font-weight:700;color:var(--deep-forest)}
+h1{font-size:40px;margin:14px 0 6px}
+h2{font-size:22px;margin:36px 0 8px;padding-left:12px;border-left:6px solid var(--soft-forest)}
+p,li{font-size:17px}
+.date{font-family:var(--font-data);font-size:14px;letter-spacing:1px;text-transform:uppercase}
+main{background:var(--surface);border-radius:18px;padding:8px 28px 32px;margin:0 auto 48px;max-width:760px}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:10px;border-bottom:1px solid var(--meadow);vertical-align:top}
+th{background:var(--faint-yellow);font-family:var(--font-head)}
+a{color:var(--deep-purple)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<span class="chip">ICHOR</span>
+<h1>Privacy Policy</h1>
+<p class="date">Effective · November 7, 2026</p>
+</div></header>
+<main>
+<p>Ichor is an Android app that turns your real tasks into short fantasy quests and grows a companion creature as you finish them. It was built by Shinayd Pollard Joseph and Jennifer Duke as a Full Sail University capstone project. This policy explains what information Ichor collects, why, who it is shared with, and how to have it deleted.</p>
+
+<h2>Information you give us</h2>
+<table>
+<tr><th>Information</th><th>Why Ichor needs it</th></tr>
+<tr><td>Email address and password</td><td>To create your account and sign you in. Your password is handled by Firebase Authentication. Ichor never sees or stores it.</td></tr>
+<tr><td>Player name, companion name and chosen class</td><td>To personalize the app and show your name to your party.</td></tr>
+<tr><td>Tasks: title, description, estimated time, category, and when you completed them</td><td>The core of the app: your task list, Growth Points, streaks and quest history.</td></tr>
+<tr><td>Progress: Growth Points, streak, evolution stage, badges and traits</td><td>To track and display how your companion grows.</td></tr>
+<tr><td>Party information: party name, members, task confirmations, connection moments and shared challenge progress</td><td>To run party features with the friends you choose to join.</td></tr>
+<tr><td>Party chat messages</td><td>To deliver messages to the other members of your party.</td></tr>
+</table>
+
+<h2>Information collected automatically</h2>
+<p>Ichor does not use advertising, analytics or crash-reporting tools, and does not collect your location, contacts, photos or device identifiers for tracking. Firebase, the service that stores your data, keeps standard server logs such as request times and IP addresses to operate and secure its service.</p>
+
+<h2>How your information is shared</h2>
+<ul>
+<li><b>Google Firebase</b> (Authentication and Cloud Firestore) stores your account and app data. If you join our testing program, Firebase App Distribution uses your email address to send you test builds. See <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</li>
+<li><b>Anthropic</b> generates quest stories. When you start a quest, Ichor sends the task's title, category and difficulty, plus short text from your recent quests, to Anthropic's Claude API. Your email, name and account ID are not sent. See <a href="https://www.anthropic.com/legal/privacy">Anthropic's privacy policy</a>.</li>
+<li><b>Your party</b> can see your player name, companion stage, the party tasks you ask them to confirm, and the messages you send in party chat.</li>
+</ul>
+<p>Ichor does not sell your information or share it for advertising.</p>
+
+<h2>Notifications</h2>
+<p>If you turn on reminders or party notifications, Ichor checks for updates on your device and shows notifications locally. Your notification choices and reminder time are stored only on your device. You can turn each type off in Settings, Notifications at any time.</p>
+
+<h2>How long we keep your information</h2>
+<p>Your data is kept while your account exists. If you leave a party, your name and stage are removed from that party. When the last member leaves, the party is deleted. Chat messages you sent stay in a party until that party is deleted.</p>
+
+<h2>Deleting your account and data</h2>
+<p>Email <a href="mailto:spollardjoseph@gmail.com">spollardjoseph@gmail.com</a> from the address on your account with the subject "Delete my Ichor account." We will delete your account, tasks, progress and quest history within 30 days and confirm by email.</p>
+
+<h2>Security</h2>
+<p>Data is sent over encrypted connections. Firestore security rules limit each account to its own data, and limit party changes to the actions a member is allowed to take, such as removing only themselves.</p>
+
+<h2>Children</h2>
+<p>Ichor is not directed to children under 13, and we do not knowingly collect information from them. If you believe a child under 13 has created an account, contact us and we will delete it.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:spollardjoseph@gmail.com">spollardjoseph@gmail.com</a></p>
+</main>
+</body>
+</html>
